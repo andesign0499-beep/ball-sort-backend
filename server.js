@@ -9,7 +9,7 @@ app.use(express.json());
 // ==========================================
 // 1. KẾT NỐI MONGODB
 // ==========================================
-mongoose.connect('mongodb+srv://andesign0499_db_user:FOOYc0hCVqGB2jP@cluster0.w7ajjcy.mongodb.net/?appName=Cluster0')
+mongoose.connect('mongodb+srv://andesign0499_db_user:Abc123456@cluster0.w7ajjcy.mongodb.net/?appName=Cluster0')
   .then(() => console.log('✅ Connected to MongoDB'))
   .catch(err => console.error('❌ MongoDB Connection Error:', err));
 
